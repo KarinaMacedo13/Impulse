@@ -177,6 +177,10 @@
   border-radius: 30px;
   border: solid 2px #5222D0;
   margin-top: 5%;
+  cursor: pointer;
+}
+.option:hover {
+  border: solid 2.5px #C48300;
 }
 
 .optionName {
@@ -285,6 +289,10 @@ button {
   font-weight: 700;
   font-size: 1em;
   color: #FFFFFF;
+  cursor: pointer;
+}
+.button2:hover{
+  background: #C48300;
 }
 
 .viewContainer2 {
