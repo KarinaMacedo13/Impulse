@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.menu_Third2 {
+  display: none;
+}
+
+.contentOne {
+  display: none;
+}
+
+.menu {
+  width: 100vW;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 100%;
+  grid-template-areas: "welcome logIn";
+}
+
+.menu_Third {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-template-rows: 10% 90%;
+  grid-template-areas: "tab head" "tab container";
+}
+
+.head {
+  padding: 2%;
+  grid-area: head;
+  display: flex;
+  justify-content: flex-end;
+  /* background: #DFDCDC; */
+}
+
+.backgroundY {
+  width: 100%;
+  height: 100vh;
+  background: #C48300;
+  z-index: 0;
+}
+
+.welcome {
+  grid-area: welcome;
+  background-image: url("img/login 1.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+
+.logIn {
+  height: 100%;
+  width: 100%;
+  grid-area: logIn;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  height: 100vh;
+}
+
+.loginImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.imgLogIn {
+  width: 60%;
+}
+
+.imgLogo {
+  width: 60%;
+  margin-left: 20%;
+  margin-top: 10%;
+}
+
+.imgProf {
+  width: 40%;
+}
+
+.optionsNav {
+  font-family: 'Poppins', sans-serif;
+  width: 80%;
+  height: 5%;
+  border: 1px solid #C4C4C4;
+  color: black;
+  border-radius: 30px;
+  margin: 3%;
+  padding: 1%;
+  padding-bottom: 0.5%;
+  margin-left: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.optionsNav1 {
+  font-family: 'Poppins', sans-serif;
+  width: 80%;
+  height: 5%;
+  border: 1px solid #C4C4C4;
+  color: white;
+  border-radius: 30px;
+  margin: 3%;
+  padding: 1%;
+  padding-bottom: 0.5%;
+  margin-left: 10%;
+  background: #C48300;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.label {
+  margin: 5%;
+  width: 50%;
+  background: none;
+  color: black;
+  font-size: 1.5em;
+  padding: 1%;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #C4C4C4;
+  text-align: center;
+}
+
+.logIn p {
+  font-size: 25px;
+  color: gray;
+  margin-top: 5%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btnLogIn {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  cursor: pointer;
+  outline: none;
+  box-shadow: 1px 1px 1px grey;
+  background: #5222D0;
+  border-radius: 30px;
+  padding: 2%;
+  font-size: 10px;
+  color: white;
+  width: 50%;
+}
+
+.contentZero {
+  display: none;
+  padding: 3%;
+}
+
+.contentOne {
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+}
+
+.groupOption {
+  width: 90%;
+  display: flex;
+  flex-direction: row;
+}
+
+.option {
+  width: 30%;
+  border-radius: 30px;
+  border: solid 2px #5222D0;
+  margin-top: 5%;
+}
+
+.optionName {
+  position: relative;
+  color: black;
+  font-size: 1em;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  margin-left: 60%;
+  display: flex;
+  justify-content: center;
+}
+
+.contentZero h2 {
+  margin: 2% 0%;
+  font-size: 2em;
+}
+
+.contentZero p {
+  margin: 1% 0%;
+  font-size: 1em;
+}
+
+.text {
+  font-family: 'Poppins';
+  font-size: 2em;
+}
+
+.generalMenu {
+  grid-area: tab;
+  display: flex;
+  flex-direction: column;
+  /*padding: 10%;*/
+  text-align: center;
+  border-right: 2px solid #C4C4C4;
+}
+
+.containerGeneral {
+  height: 85vh;
+  grid-area: container;
+  border-radius: 10px 0px 0px 0px;
+  /*background: #DFDCDC;*/
+}
+
+.viewContainerMain {
+  display: none;
+}
+
+.viewContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.imgContainer,
+.txt,
+.btns,
+.btns2,
+.divtitle {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.imgContainer img {
+  width: 60%;
+}
+
+.txt {
+  width: 80%;
+  margin: 10px 10px;
+}
+
+.txt p {
+  display: flex;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  text-align: center;
+  color: #696F79;
+}
+
+.txt2 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.5em;
+  color: #696F79;
+}
+
+.btns {
+  width: 60%;
+  margin: 20px 20px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  height: 60px;
+  background: #5222D0;
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1em;
+  color: #FFFFFF;
+}
+
+.viewContainer2 {
+  display: none;
+}
+
+.subContainer2 {
+  display: flex;
+}
+
+.leftBox {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 6%;
+}
+
+.btns2 {
+  width: 90%;
+  margin: 10px 10px;
+  flex-direction: column;
+}
+
+.btns2 button {
+  margin-top: 20px;
+}
+
+.rightBox {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.rightBox img {
+  width: 90%;
+}
+
+.subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 2em;
+  text-align: center;
+  color: #696F79;
+}
+
+.concept {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1em;
+  text-align: center;
+  color: #696F79;
+  width: 70%;
+}
+
+.viewContainer3 {
+  display: none;
+}
+
+.divtitle {
+  padding: 13px 30px;
+}
+
+.subContainer {
+  display: flex;
+}
+
+.subContainer button {
+  width: 250px;
+}
+
+.divSubtitle {
+  margin-bottom: 5px;
+}
+
+.checklist {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 1em;
+  margin: 0 25px;
+}
+
+form input {
+  margin-top: 20px;
+}
+
+.submitBtns {
+  /* width: 60%; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 10px;
+}
+
+.submitBtns input {
+  margin: 20px 20px;
+  padding: 10px;
+  width: 250px;
+  height: 55px;
+  background: #5222D0;
+  border-radius: 30px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1em;
+  color: #FFFFFF;
+}
+
+.viewContainer4 {
+  display: none;
+}
+
+.viewContainer5 {
+  display: none;
+}
+
+.subView5 {
+  padding: 40px 30px;
+}
+
+.subView5 li {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 1.2em;
+  margin: 0 25px;
+  margin-top: 10px;
+}
+
+.txt5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 1.3em;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.subDiv {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.subDiv .subtitle {
+  margin-bottom: 15px;
+}
